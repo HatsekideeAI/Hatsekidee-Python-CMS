@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtuele omgevingen
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# IDE-specifieke bestanden
+.vscode/
+.idea/
+
+# Logbestanden
+*.log
+
+# Databasebestanden
+*.sqlite3
+*.db
+
+# SSL-certificaten
+docker/nginx/ssl/
+certbot/letsencrypt/
+
+# Django statische en media bestanden
+staticfiles/
+media/
+
+# Output map
+output/
+storage/
